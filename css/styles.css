@@ -116,7 +116,8 @@ img {
   cursor: pointer;
 }
 
-/* Header*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Header*/
+
 .container-header {
   display: flex;
   align-items: center;
@@ -172,10 +173,6 @@ img {
   background: var(--pressed-state-color);
 }
 
-/* .header-nav-item.active::after {
-  background: var(--pressed-state-color);
-} */
-
 .header-cont-list {
   display: flex;
   gap: 40px;
@@ -202,7 +199,7 @@ img {
   color: var(--pressed-state-color);
 }
 
-/* Hero section - Studio*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Hero section - Studio*/
 
 .hero {
   text-align: center;
@@ -259,7 +256,7 @@ img {
   background-color: var(--pressed-state-color);
 }
 
-/* Feature section - Studio*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Feature section - Studio*/
 
 .features {
 }
@@ -301,7 +298,7 @@ img {
   height: 64px;
 }
 
-/* Examples - Studio*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Examples - Studio*/
 
 .examples {
   padding-top: 0;
@@ -324,7 +321,7 @@ img {
 .examples-img {
 }
 
-/* Our Team - Studio*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Our Team - Studio*/
 
 .team {
   background-color: var(--light-bg-color);
@@ -386,7 +383,7 @@ img {
   background-color: var(--pressed-state-color);
 }
 
-/* Customers */
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Customers */
 
 .customers {
 }
@@ -435,7 +432,7 @@ img {
   fill: currentColor;
 }
 
-/* Footer */
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Footer */
 
 .footer {
   padding: 100px 0;
@@ -461,7 +458,7 @@ footer .container {
   color: var(--light-bg-color);
 }
 
-.social-media{
+.social-media {
   margin-right: 80px;
 }
 
@@ -499,11 +496,27 @@ footer .container {
   fill: var(--light-bg-color);
 }
 
+.subscription-title {
+  text-align: left;
+  margin-bottom: 16px;
+  color: var(--bg-color);
+}
+
+.subscription-block {
+  position: relative;
+}
+
+.subscribe-text {
+  position: absolute;
+}
+
+
 .social-link:hover,
 .social-link:focus {
   background-color: var(--val-field-color);
 }
-/* main - portfolio */
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> main - portfolio */
 
 .portfolio {
   padding-top: 96px;
@@ -610,7 +623,8 @@ footer .container {
   transform: translateY(0);
 }
 
-/* Modal window */
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Modal window */
+
 .backdrop {
   position: fixed;
   top: 0;
