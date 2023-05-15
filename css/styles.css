@@ -447,7 +447,7 @@ footer .container {
   align-items: baseline;
 }
 
-.footer-flex {
+.footer-left {
   margin-right: 120px;
 }
 
@@ -459,6 +459,10 @@ footer .container {
 .footer-desc {
   width: 264px;
   color: var(--light-bg-color);
+}
+
+.social-media{
+  margin-right: 80px;
 }
 
 .social-title {
