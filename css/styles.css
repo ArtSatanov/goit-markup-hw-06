@@ -781,3 +781,21 @@ footer .container {
 .modal-form {
   margin: 0;
 }
+
+.modal-label {
+  position: relative;
+}
+
+.name-icon {
+  position: absolute;
+  top:50%;
+  left: 16px;
+  transform: translateY(-50%);
+}
+
+.input-title {
+  position: absolute;
+    top: -4px;
+    left: 0px;
+
+}
