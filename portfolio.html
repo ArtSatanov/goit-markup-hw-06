@@ -321,8 +321,8 @@
     <!-- footer -->
     <footer class="footer">
       <div class="container">
-        <div class="footer-flex">
-          <a href="./index.html" class="footer-logo link logo active-link"
+        <div class="footer-left">
+          <a href="./index.html" class="footer-logo link logo"
             >Web<span class="logo-footer">Studio</span></a
           >
           <p class="footer-desc primary-text">
@@ -382,6 +382,31 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="footer-subscribe" aria-labelledby="subscription-form">
+          <p
+            class="subscription-title subtitle primary-text"
+            id="subscription-form"
+          >
+            Subscribe
+          </p>
+          <form class="subscription-block">
+            <label class="subscribe">
+              <input
+                class="subscribe-form"
+                type="email"
+                name="email"
+                placeholder=" "
+              />
+              <span class="subscribe-text">E-mail</span>
+            </label>
+            <button class="subscribe-btn btn">
+              Subscribe
+              <svg class="icon-send" width="24" height="24">
+                <use href="./images/icons.svg#plane"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
