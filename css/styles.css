@@ -502,14 +502,31 @@ footer .container {
   color: var(--bg-color);
 }
 
-.subscription-block {
+.subscribe {
   position: relative;
 }
 
 .subscribe-text {
   position: absolute;
+  top: 0;
+  left: 0;
 }
 
+.subscribe-text {
+  color: var(--bg-color);
+
+}
+
+.subscribe-form {
+  display: inline-block;
+  padding: 8px auto 8px 16px;
+  margin-right: 24px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  background-color: transparent;
+}
 
 .social-link:hover,
 .social-link:focus {
