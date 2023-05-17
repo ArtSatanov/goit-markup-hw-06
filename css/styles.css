@@ -809,12 +809,3 @@ footer .container {
   transform: translateY(-50%);
 }
 
-.input-title {
-  position: absolute;
-  top: -29px;
-  left: 0px;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 0.04em;
-  color: var(--help-text-color);
-}
