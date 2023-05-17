@@ -809,3 +809,35 @@ footer .container {
   transform: translateY(-50%);
 }
 
+.textarea-field {
+  resize: none;
+  width: 360px;
+  height: 120px;
+  margin-bottom: 18px;
+
+  border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    
+}
+
+.textarea-field::placeholder {
+  padding: 8px 16px;
+  font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  
+
+}
+
+.privacy-text { 
+  font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    color: var(--help-text-color);
+}
+
+.privacy-link {
+  line-height: 16px;
+  color: var(--primary-brand-color);
+}
