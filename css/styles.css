@@ -459,7 +459,7 @@ footer .container {
 }
 
 .social-media {
-  margin-right: 80px;
+  margin-right: auto;
 }
 
 .social-title {
@@ -789,6 +789,7 @@ footer .container {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
+  color: var(--help-text-color);
 }
 
 .form-wrapper {
@@ -820,13 +821,13 @@ footer .container {
   width: 100%;
   height: 120px;
   margin-bottom: 18px;
+  padding: 8px 16px;
 
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
 }
 
 .textarea-field::placeholder {
-  padding: 8px 16px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
